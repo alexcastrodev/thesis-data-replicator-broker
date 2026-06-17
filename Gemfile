@@ -43,7 +43,7 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
 
   # Testing stack: RSpec + factories + isolated DB state + Karafka test helpers
-  gem "rspec-rails", "~> 7.0"
+  gem "rspec-rails", "~> 8.0"
   gem "factory_bot_rails"
   gem "database_cleaner-active_record"
   gem "karafka-testing", "~> 2.4"
